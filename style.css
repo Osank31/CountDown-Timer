@@ -1,0 +1,76 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: blanchedalmond;
+    font-family: 'Salsa', cursive;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.submit
+{
+    background-color: cornflowerblue;
+    font-family: 'Salsa', cursive;
+    border: none;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input
+{
+    height: 10px;
+    padding: 20px;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Salsa', cursive;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* background: #000; */
+    /* border: 2px solid brown; */
+    text-align: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.time {
+    background-color: cornflowerblue;
+    font-size: 100px;
+    display: inline-block;
+    width: 138px;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.thingy {
+    font-size: 68px;
+}
+
+#gpl {
+    font-size: 60px;
+}
+
+ 
